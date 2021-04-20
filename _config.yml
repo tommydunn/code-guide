@@ -1,6 +1,6 @@
 name: Company Code Guide by Tommy Dunn
 description: Standards for developing consistent, flexible, and sustainable HTML and CSS.
-url: https://tommydunn.io
+url: https://tommydunn.github.io/code-guide
 permalink: pretty
 sass:
   style: compressed

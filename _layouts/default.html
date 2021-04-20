@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link href="/favicon.ico" rel="icon" type="image/x-icon">
+
+    <title>
+      {{ site.name }}
+    </title>
+
+    <meta name="description" content="Standards for developing consistent, flexible, and sustainable HTML and CSS">
+    <link rel="stylesheet" href="cg.css">
+  </head>
+  <body>
+
+    {% include header.html %}
+
+    <main class="container" role="main">
+      {{ content }}
+    </main>
+
+  </body>
+</html>
